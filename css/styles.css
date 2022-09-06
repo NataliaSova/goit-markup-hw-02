@@ -1,0 +1,122 @@
+
+header{
+   color:#FFFFFF ; 
+}
+.logo{
+    color: #000000 #2196F3; 
+    font-family: Raleway, sans-serif;
+    font-style: 700;
+    font-weight: 145px;
+    font-size: 26px
+    line-height: 1;
+}
+.page{
+    font-family: Roboto, sans-serif;
+}
+.studia{
+    color:#2196F3 ;
+    font-family: Roboto
+    font-style:  500;
+    font-size: 14px
+    line-height: 1,2;
+}
+.site-nav{
+    color: #000000;
+    font-family: Roboto
+    font-style: 500;
+    font-size: 14px
+    line-height:1,2;
+}
+.studia .site-nav:hover,
+.studia .site-nav:focus
+.studia. current{
+    color: #2196F3;
+}
+.imail{
+  color: #2196F3;  
+  font-family: Roboto
+  font-style: 500;
+  font-size: 14px
+  line-height: 1,2;
+}
+.telefone{
+    color:#757575;
+    font-family: Roboto
+    font-style: 500;
+    font-size: 14px
+    line-height: 1,2;
+}
+.button-title{
+    background-color: #2F303A;
+    color: #FFFFFF;
+    font-family: Roboto
+    font-style 900;
+    font-size 44px
+    line-height: 1,4; 
+    text-align: center;
+}
+.button{
+    color: #FFFFFF;
+    background-color: #2196F3;
+    font-family: Roboto
+    font-style: 700;
+    font-size 16px
+    line-height: 1,8;
+}
+.portfolio-button{
+    color: #212121;
+    background-color: #F5F4FA;
+    font-family: Roboto
+    font-style 500;
+    font-size: 16px
+    line-height 1,6;
+}
+.comande{
+    background-color: #F5F4FA;
+}
+.title{
+    color: #212121;
+    font-family: Roboto
+    font-style: 700
+    font-size: 14px
+    lineheight: 1,14
+}
+.title-inform{
+    color:#757575;
+    font-family: Roboto
+    font-style: 400;
+    font-size: 14px
+    line-height: 1,7;
+
+}
+.footer{
+    background-color: #2F303A;
+}
+.webstud{
+    color: #FFFFFF;
+    font-family: Raleway
+    font-style: 700;
+    font-size: 26px
+    line-height: 1,2;
+}
+.adress{
+  color: #FFFFFF;
+  font-family: Roboto
+  font-style: 400;
+  font-size: 14px
+  line-height: 1,7;
+}   
+.mail{
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Roboto
+    font-style: 400;
+    font-size: 14px
+    line-height: 1,7;
+}
+.tele{
+   color:rgba(255, 255, 255, 0.6) ;
+   font-family: Roboto
+   font-style: 400;
+   font-size: 14px
+   line-height: 1,7;
+} 
