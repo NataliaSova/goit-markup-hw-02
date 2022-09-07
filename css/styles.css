@@ -1,122 +1,133 @@
-
-header{
-   color:#FFFFFF ; 
+:root{
+    --primary-text-color:#757575;
+    --title-text-color:#000000;
+    --secondary-header-color:#212121;
+    --accent-color:#2196F3;
+    --main-body-color:#F5F5F5;
+    --main-background-color:#FFFFFF;
+    --secondary-background-color:#F5F4FA;
+    --window-color:#2F303A;
+    --email-color:rgba(255, 255, 255, 0.6);
 }
+
+/* основной цвет текста #757575  серый */
+/* цвет заголовков #000000  черный */
+/* цвет вторичных заголовков #212121 */
+/* цвет акцентов #2196F3 голубой */
+/* основной цвет тела #F5F5F5 */
+/* основной цвет фона  #FFFFFF  белый*/
+/* вторичній цвет фона #F5F4FA  еле серый*/
+/* цвет окна #2F303A асфальт*/
+/* цвет имейла и телефона rgba(255, 255, 255, 0.6)*/
+
+
 .logo{
-    color: #000000 #2196F3; 
+    color:var(--title-text-color); 
     font-family: Raleway, sans-serif;
     font-style: 700;
     font-weight: 145px;
     font-size: 26px
-    line-height: 1;
 }
-.page{
+body{
     font-family: Roboto, sans-serif;
+    background-color:var(--main-body-color);
+    color:var(--primary-text-color);
+    font-size: 14px;
+    line-height: 1,7;
+
+}
+ul{
+    list-style: none;
 }
 .studia{
-    color:#2196F3 ;
-    font-family: Roboto
-    font-style:  500;
-    font-size: 14px
+    color:var(--accent-color);
+    font-style: 500;
+    font-size: 14px;
     line-height: 1,2;
 }
 .site-nav{
-    color: #000000;
-    font-family: Roboto
+    color:var(--title-text-color);
     font-style: 500;
-    font-size: 14px
+    font-size: 14px;
     line-height:1,2;
 }
 .studia .site-nav:hover,
 .studia .site-nav:focus
-.studia. current{
-    color: #2196F3;
+.studia .current {
+    color:var(--accent-color);
 }
 .imail{
-  color: #2196F3;  
-  font-family: Roboto
+  color: var(--accent-color);  
   font-style: 500;
-  font-size: 14px
+  font-size: 14px;
   line-height: 1,2;
 }
 .telefone{
-    color:#757575;
-    font-family: Roboto
+    color:var(--primary-text-color);
     font-style: 500;
-    font-size: 14px
+    font-size: 14px;
     line-height: 1,2;
 }
 .button-title{
-    background-color: #2F303A;
-    color: #FFFFFF;
-    font-family: Roboto
-    font-style 900;
-    font-size 44px
+    background-color:var(--window-color);
+    color:var(--main-background-color);
+    font-style: 900;
+    font-size: 44px;
     line-height: 1,4; 
     text-align: center;
 }
 .button{
-    color: #FFFFFF;
-    background-color: #2196F3;
-    font-family: Roboto
+    color: var(--main-background-color);
+    background-color: var(--accent-color);
     font-style: 700;
-    font-size 16px
+    font-size: 16px;
     line-height: 1,8;
 }
 .portfolio-button{
-    color: #212121;
-    background-color: #F5F4FA;
-    font-family: Roboto
-    font-style 500;
-    font-size: 16px
-    line-height 1,6;
+    color:var(--secondary-header-color);
+    background-color:var(--secondary-background-color);
+    font-style: 500;
+    font-size: 16px;
+    line-height: 1,6;
 }
 .comande{
-    background-color: #F5F4FA;
+    background-color:var(--secondary-background-color);
 }
 .title{
-    color: #212121;
-    font-family: Roboto
-    font-style: 700
-    font-size: 14px
-    lineheight: 1,14
+    color: var(--secondary-header-color);
+    font-style: 700;
+    font-size: 14px;
+    line-height: 1,14
 }
 .title-inform{
-    color:#757575;
-    font-family: Roboto
+    color:var(--primary-text-color);
     font-style: 400;
-    font-size: 14px
+    font-size: 14px;
     line-height: 1,7;
-
 }
 .footer{
-    background-color: #2F303A;
+    background-color:var(--window-color);
 }
-.webstud{
-    color: #FFFFFF;
-    font-family: Raleway
+.slogan{
+    color: var(--main-background-color);
+    font-family: Raleway sans-serif;
     font-style: 700;
-    font-size: 26px
+    font-size: 26px;
     line-height: 1,2;
 }
 .adress{
-  color: #FFFFFF;
-  font-family: Roboto
+  color: var(--main-background-color);
   font-style: 400;
-  font-size: 14px
+  font-size: 14px;
   line-height: 1,7;
 }   
 .mail{
-    color: rgba(255, 255, 255, 0.6);
-    font-family: Roboto
-    font-style: 400;
-    font-size: 14px
+    color:var(--email-color) ;
+    font-size: 14px;
     line-height: 1,7;
 }
-.tele{
-   color:rgba(255, 255, 255, 0.6) ;
-   font-family: Roboto
-   font-style: 400;
-   font-size: 14px
+.phone{
+   color:var(--email-color);
+   font-size: 14px;
    line-height: 1,7;
 } 
