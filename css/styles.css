@@ -24,8 +24,6 @@
 .logo{
     color:var(--title-text-color); 
     font-family: Raleway, sans-serif;
-    font-style: 700;
-    font-weight: 145px;
     font-size: 26px
 }
 body{
@@ -33,7 +31,6 @@ body{
     background-color:var(--main-body-color);
     color:var(--primary-text-color);
     font-size: 14px;
-    line-height: 1,7;
 
 }
 ul{
@@ -71,17 +68,13 @@ ul{
 .button-title{
     background-color:var(--window-color);
     color:var(--main-background-color);
-    font-style: 900;
     font-size: 44px;
-    line-height: 1,4; 
     text-align: center;
 }
 .button{
     color: var(--main-background-color);
     background-color: var(--accent-color);
-    font-style: 700;
     font-size: 16px;
-    line-height: 1,8;
 }
 .portfolio-button{
     color:var(--secondary-header-color);
@@ -95,15 +88,11 @@ ul{
 }
 .title{
     color: var(--secondary-header-color);
-    font-style: 700;
     font-size: 14px;
-    line-height: 1,14
 }
 .title-inform{
     color:var(--primary-text-color);
-    font-style: 400;
     font-size: 14px;
-    line-height: 1,7;
 }
 .footer{
     background-color:var(--window-color);
@@ -111,9 +100,7 @@ ul{
 .slogan{
     color: var(--main-background-color);
     font-family: Raleway sans-serif;
-    font-style: 700;
     font-size: 26px;
-    line-height: 1,2;
 }
 .adress{
   color: var(--main-background-color);
