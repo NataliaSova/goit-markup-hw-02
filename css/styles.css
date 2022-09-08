@@ -36,7 +36,7 @@ body{
     color:var(--primary-text-color);
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03cm;
+    letter-spacing: 0.03em;
 }
 ul{
     list-style: none;
@@ -62,14 +62,8 @@ ul{
 .current{
     color: var(--accent-color);
 }
-.imail{
-  color: var(--primary-text-color);  
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.2;
-  text-decoration: none;
-}
-.telefone
+
+.contacts
 {
     color:var(--primary-text-color);
     font-weight: 500;
@@ -77,22 +71,18 @@ ul{
     line-height: 1.2;
     text-decoration: none;
 }
-.imal:hover,
-.imail:focus{
+.contacts:hover,
+.contacts:focus{
     color: var(--accent-color);
 }
-.telefone:hover,
-.telefone:focus{
-    color: var(--accent-color);
-}
+
 .button-title{
-    background-color:var(--window-color);
     color:var(--main-background-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
-    letter-spacing: 0.06cm;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
 }
 .button{
@@ -104,10 +94,13 @@ ul{
     font-weight: 700;
     line-height: 1.87;
     align-items: center;
-    letter-spacing: 0.06cm;
-
+    letter-spacing: 0.06em;
+}
+.hero{
+    background-color: var(--window-color);
 }
 .portfolio-button{
+    font-family: inherit;
     cursor: pointer;
     color:var(--secondary-header-color);
     background-color:var(--secondary-background-color);
@@ -115,7 +108,7 @@ ul{
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
-    letter-spacing: 0.03cm;
+    letter-spacing: 0.03em;
 }
 .portfolio-button:hover,
 .portfolio-button:focus
@@ -123,9 +116,7 @@ ul{
     color:var(--title-text-color);
     background-color: var(--accent-color);
 }
-.current-port{
-    background-color: var(--accent-color);
-}
+
 .comande{
     background-color:var(--secondary-background-color);
 }
@@ -134,21 +125,15 @@ ul{
     font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
-    letter-spacing: 0.03cm;
+    letter-spacing: 0.03em;
 }
-.title-inform{
-    color:var(--primary-text-color);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.71;
-    letter-spacing: 0.03cm;
-}
+
 .comanda-title{
     color: var(--secondary-header-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    letter-spacing: 0.03cm;
+    letter-spacing: 0.03em;
     text-align: center;
 }
 .comanda-title-people{
@@ -156,32 +141,23 @@ ul{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    letter-spacing: 0.03cm;
+    letter-spacing: 0.03em;
 }
 .work-inform{
     color: var(--primary-text-color);
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.18;
-    letter-spacing: 0.03cm;
 
 }
 .footer{
     background-color:var(--window-color);
 }
 .web-footer{
-    color: var(--accent-color)
+    color: var(--main-background-color)
 }
-.slogan{
-    color: var(--main-background-color);
-    font-family: Raleway sans-serif;
-    font-size: 26px;
-    font-weight: 400;
-    line-height: 1.19;
-    text-decoration: none;
-    letter-spacing: 0.03cm;
-}
+
 .adress{
+    font-style: normal;
   color: var(--email-color);
   font-weight: 400;
   font-size: 14px;
@@ -191,18 +167,12 @@ ul{
 }   
 .mail{
     color:var(--email-color);
-    font-weight: 400;
     font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03cm;
     text-decoration: none;
 }
 .phone{
    color:var(--email-color);
-   font-weight: 400;
    font-size: 14px;
-   line-height: 1.7;
-   letter-spacing: 0.03cm;
    text-decoration: none;
 } 
 .phone:hover,
